@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+out/
+*.npy
+*.csv
+.DS_Store

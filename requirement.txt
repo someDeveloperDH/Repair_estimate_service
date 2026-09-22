@@ -1,1 +1,10 @@
-
+# 신발/의류 zero-shot 분류
+# SigLIP2는 transformers 4.57+ 필요. 5.x에서 get_*_features가 ModelOutput을 반환하는데
+# model.py의 _tensor()가 두 경우를 모두 처리한다.
+torch>=2.2
+torchvision>=0.17
+transformers>=4.57
+pillow>=10.0
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.4        # 교차검증(k-means)용. 없으면 해당 단계만 건너뜀
