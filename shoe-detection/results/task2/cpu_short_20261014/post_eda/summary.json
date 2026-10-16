@@ -1,0 +1,28 @@
+{
+  "task": "data2",
+  "split": "val",
+  "confidence": 0.15,
+  "example_image_counts": {
+    "false_positive": 4,
+    "false_negative": 130,
+    "success": 1
+  },
+  "size_recall": {
+    "under_1pct": {
+      "tp": 0,
+      "support": 148,
+      "recall": 0.0
+    },
+    "1_to_10pct": {
+      "tp": 2,
+      "support": 54,
+      "recall": 0.037037037037037035
+    },
+    "over_10pct": {
+      "tp": 0,
+      "support": 5,
+      "recall": 0.0
+    }
+  },
+  "note": "Green=ground truth; red=prediction. Native plots use AP settings, not the operating threshold. Library speeds are not synchronized batch-1 p95 benchmarks."
+}

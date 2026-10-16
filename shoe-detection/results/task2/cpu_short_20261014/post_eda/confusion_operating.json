@@ -1,0 +1,35 @@
+{
+  "labels": [
+    "outsole",
+    "heel lining",
+    "not_sneakers",
+    "background"
+  ],
+  "matrix": [
+    [
+      0,
+      0,
+      0,
+      21
+    ],
+    [
+      0,
+      2,
+      0,
+      184
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      7,
+      0,
+      0
+    ]
+  ],
+  "note": "Class-agnostic spatial matching for confusion analysis; off-diagonal class mistakes differ from class-aware TP matching. Background-background is undefined, stored as zero."
+}

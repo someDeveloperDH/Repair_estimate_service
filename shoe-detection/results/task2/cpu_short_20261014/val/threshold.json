@@ -1,0 +1,12 @@
+{
+  "task": "data2",
+  "confidence": 0.15,
+  "constraints_met": false,
+  "weights_sha256": "0e69015ed529c97a204413e0183391ba855864a3fad74d0218c145a156491c30",
+  "weights": "C:\\Users\\user\\Desktop\\final\\men_dii\\results\\task2\\cpu_short_20261014\\train\\fit\\best.pth",
+  "imgsz": 512,
+  "nms_iou": 0.7,
+  "max_det": 300,
+  "selected_on": "val",
+  "note": "If constraints_met is false, exploratory fallback only; target has not been met."
+}

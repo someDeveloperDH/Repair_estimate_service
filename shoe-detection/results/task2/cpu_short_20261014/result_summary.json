@@ -1,0 +1,139 @@
+{
+    "task":  "data2",
+    "model":  "RF-DETR Small",
+    "status":  "completed",
+    "run_type":  "CPU short training, not full training",
+    "epochs":  1,
+    "train_batches":  16,
+    "training_val_batches":  8,
+    "full_validation_images":  131,
+    "test_evaluated":  false,
+    "best_checkpoint":  "C:\\Users\\user\\Desktop\\final\\men_dii\\results\\task2\\cpu_short_20261014\\train\\fit\\best.pth",
+    "training":  {
+                     "backend":  "rfdetr",
+                     "version":  "1.11.2",
+                     "model":  "RFDETRSmall",
+                     "best":  "C:\\Users\\user\\Desktop\\final\\men_dii\\results\\task2\\cpu_short_20261014\\train\\fit\\best.pth",
+                     "best_epoch":  1,
+                     "best_map50_95":  6.5006502154574264E-06,
+                     "elapsed_seconds":  146.13456730172038,
+                     "smoke_test":  true,
+                     "limit_train_batches":  16,
+                     "limit_val_batches":  8,
+                     "classes":  [
+                                     "outsole",
+                                     "heel lining",
+                                     "not_sneakers"
+                                 ],
+                     "use_ema":  false,
+                     "checkpoint_policy":  "strictly_best_validation_map_only",
+                     "note":  "Partial-batch smoke metrics are not full validation performance. No automatic test evaluation."
+                 },
+    "validation":  {
+                       "task":  "data2",
+                       "backend":  "rfdetr",
+                       "split":  "val",
+                       "confidence":  0.15,
+                       "fixed_threshold":  {
+                                               "classes":  [
+                                                               {
+                                                                   "class_id":  0,
+                                                                   "name":  "outsole",
+                                                                   "support":  21,
+                                                                   "images":  17,
+                                                                   "tp":  0,
+                                                                   "fp":  0,
+                                                                   "fn":  21,
+                                                                   "precision":  0.0,
+                                                                   "recall":  0.0,
+                                                                   "f1":  0.0,
+                                                                   "ap50":  0.0,
+                                                                   "ap50_95":  0.0
+                                                               },
+                                                               {
+                                                                   "class_id":  1,
+                                                                   "name":  "heel lining",
+                                                                   "support":  186,
+                                                                   "images":  114,
+                                                                   "tp":  2,
+                                                                   "fp":  7,
+                                                                   "fn":  184,
+                                                                   "precision":  0.2222222222222222,
+                                                                   "recall":  0.010752688172043012,
+                                                                   "f1":  0.020512820512820513,
+                                                                   "ap50":  0.0086391446190477,
+                                                                   "ap50_95":  0.0024383902207233033
+                                                               },
+                                                               {
+                                                                   "class_id":  2,
+                                                                   "name":  "not_sneakers",
+                                                                   "support":  0,
+                                                                   "images":  0,
+                                                                   "tp":  0,
+                                                                   "fp":  0,
+                                                                   "fn":  0,
+                                                                   "precision":  null,
+                                                                   "recall":  null,
+                                                                   "f1":  null,
+                                                                   "ap50":  null,
+                                                                   "ap50_95":  null
+                                                               }
+                                                           ],
+                                               "macro_supported_classes":  {
+                                                                               "precision":  0.1111111111111111,
+                                                                               "recall":  0.005376344086021506,
+                                                                               "f1":  0.010256410256410256
+                                                                           },
+                                               "micro":  {
+                                                             "precision":  0.2222222222222222,
+                                                             "recall":  0.00966183574879227,
+                                                             "f1":  0.018518518518518517
+                                                         },
+                                               "supported_class_ids":  [
+                                                                           0,
+                                                                           1
+                                                                       ],
+                                               "size_recall":  {
+                                                                   "under_1pct":  {
+                                                                                      "tp":  0,
+                                                                                      "support":  148,
+                                                                                      "recall":  0.0
+                                                                                  },
+                                                                   "1_to_10pct":  {
+                                                                                      "tp":  2,
+                                                                                      "support":  54,
+                                                                                      "recall":  0.037037037037037035
+                                                                                  },
+                                                                   "over_10pct":  {
+                                                                                      "tp":  0,
+                                                                                      "support":  5,
+                                                                                      "recall":  0.0
+                                                                                  }
+                                                               }
+                                           },
+                       "primary_ap":  {
+                                          "ap50":  0.00431957230952385,
+                                          "ap50_95":  0.0012191951103616516,
+                                          "requested_class_ids":  [
+                                                                      0,
+                                                                      1
+                                                                  ],
+                                          "included_class_ids":  [
+                                                                     0,
+                                                                     1
+                                                                 ],
+                                          "complete":  true
+                                      },
+                       "primary_operating":  {
+                                                 "precision":  0.1111111111111111,
+                                                 "recall":  0.005376344086021506,
+                                                 "f1":  0.010256410256410256,
+                                                 "included_class_ids":  [
+                                                                            0,
+                                                                            1
+                                                                        ]
+                                             },
+                       "threshold_constraints_met":  false,
+                       "note":  "COCO AP maxDets=300; RF-DETR has no NMS. nms_iou retained only as a legacy config field."
+                   }
+}

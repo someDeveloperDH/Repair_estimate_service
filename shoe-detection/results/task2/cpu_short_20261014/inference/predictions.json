@@ -1,0 +1,99 @@
+{
+  "backend": "rfdetr",
+  "confidence": 0.15,
+  "records": [
+    {
+      "file_name": "20240314_150139.jpg",
+      "path": "C:\\Users\\user\\Desktop\\final\\men_dii\\results\\task2\\cpu_short_20261014\\inference_inputs\\20240314_150139.jpg",
+      "width": 512,
+      "height": 512,
+      "ground_truth": [],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.1972561478614807,
+          "box": [
+            297.507568359375,
+            200.91111755371094,
+            335.3692626953125,
+            243.4707489013672
+          ]
+        },
+        {
+          "class": 1,
+          "confidence": 0.16094240546226501,
+          "box": [
+            156.56838989257812,
+            224.9486083984375,
+            206.13705444335938,
+            272.7605285644531
+          ]
+        }
+      ],
+      "reserved_slot_predictions_removed": 0,
+      "elapsed_ms": 1224.8602025210857
+    },
+    {
+      "file_name": "20240325_091750.jpg",
+      "path": "C:\\Users\\user\\Desktop\\final\\men_dii\\results\\task2\\cpu_short_20261014\\inference_inputs\\20240325_091750.jpg",
+      "width": 512,
+      "height": 512,
+      "ground_truth": [],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.37462127208709717,
+          "box": [
+            180.36907958984375,
+            316.2833251953125,
+            264.3519287109375,
+            360.68096923828125
+          ]
+        },
+        {
+          "class": 1,
+          "confidence": 0.17710533738136292,
+          "box": [
+            176.28860473632812,
+            299.7642822265625,
+            281.021484375,
+            361.94873046875
+          ]
+        }
+      ],
+      "reserved_slot_predictions_removed": 0,
+      "elapsed_ms": 1184.1363981366158
+    },
+    {
+      "file_name": "20240604_105343.jpg",
+      "path": "C:\\Users\\user\\Desktop\\final\\men_dii\\results\\task2\\cpu_short_20261014\\inference_inputs\\20240604_105343.jpg",
+      "width": 512,
+      "height": 512,
+      "ground_truth": [],
+      "predictions": [
+        {
+          "class": 1,
+          "confidence": 0.4095298945903778,
+          "box": [
+            0.10536956787109375,
+            323.9735412597656,
+            69.45797729492188,
+            504.6463317871094
+          ]
+        },
+        {
+          "class": 1,
+          "confidence": 0.19890278577804565,
+          "box": [
+            0.6268577575683594,
+            323.6688232421875,
+            109.39329528808594,
+            505.49371337890625
+          ]
+        }
+      ],
+      "reserved_slot_predictions_removed": 0,
+      "elapsed_ms": 1697.8655010461807
+    }
+  ]
+}

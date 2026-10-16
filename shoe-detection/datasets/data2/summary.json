@@ -1,0 +1,23 @@
+﻿{
+    "task":  "data2",
+    "registered_images":  12599,
+    "source_annotations":  4549,
+    "exported_images":  1465,
+    "split_images":  {
+                         "train":  1222,
+                         "val":  131,
+                         "test":  112
+                     },
+    "exported_boxes_by_class":  {
+                                    "heel lining":  2101,
+                                    "outsole":  358,
+                                    "not_sneakers":  6
+                                },
+    "missing_images":  6198,
+    "missing_labeled_images":  1321,
+    "excluded_matched_unlabeled_images":  4936,
+    "aspect_mismatch_images":  0,
+    "invalid_annotations":  0,
+    "clipped_boxes":  0,
+    "split_policy":  "SHA256 shoe-v1 + shooting date; 80/10/10 buckets; labeled matched images only"
+}

@@ -1,0 +1,10 @@
+﻿split,class_id,name,boxes,images
+train,0,outsole,320,251
+train,1,heel lining,1731,976
+train,2,not_sneakers,6,6
+val,0,outsole,21,17
+val,1,heel lining,186,114
+val,2,not_sneakers,0,0
+test,0,outsole,17,12
+test,1,heel lining,184,104
+test,2,not_sneakers,0,0

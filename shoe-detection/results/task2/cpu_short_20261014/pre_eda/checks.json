@@ -1,0 +1,7 @@
+{
+  "exact_duplicate_groups": [],
+  "exact_duplicate_cross_split": [],
+  "identical_dhash_cross_split": [],
+  "date_cross_split": {},
+  "note": "SHA256 plus identical dHash candidates. dHash collisions need visual review; this does not detect all near duplicates or cross-date shoe identities."
+}

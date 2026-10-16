@@ -1,0 +1,10 @@
+﻿name,metric,target,actual,support,images,status
+outsole,ap50,0.8,0.0,21,17,INSUFFICIENT_SAMPLE
+outsole,precision,0.8,0.0,21,17,INSUFFICIENT_SAMPLE
+outsole,recall,0.9,0.0,21,17,INSUFFICIENT_SAMPLE
+heel lining,ap50,0.9,0.0086391446190477,186,114,BELOW_TARGET
+heel lining,precision,0.9,0.2222222222222222,186,114,BELOW_TARGET
+heel lining,recall,0.9,0.010752688172043012,186,114,BELOW_TARGET
+not_sneakers,ap50,0.8,,0,0,N/A
+not_sneakers,precision,0.8,,0,0,N/A
+not_sneakers,recall,0.8,,0,0,N/A

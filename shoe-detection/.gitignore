@@ -1,0 +1,12 @@
+.venv/
+.tools/
+__pycache__/
+*.pyc
+artifacts/
+runs/
+*.pt
+# Model weights and large archives exceed GitHub's 100 MB file limit; keep them local.
+*.pth
+*.ckpt
+*.zip
+raw/

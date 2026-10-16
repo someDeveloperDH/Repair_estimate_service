@@ -1,0 +1,14 @@
+﻿[
+    {
+        "task":  "data1",
+        "images":  5746,
+        "boxes":  10912,
+        "status":  "PASS"
+    },
+    {
+        "task":  "data2",
+        "images":  1465,
+        "boxes":  2465,
+        "status":  "PASS"
+    }
+]

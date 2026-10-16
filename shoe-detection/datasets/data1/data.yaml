@@ -1,0 +1,12 @@
+path: .
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: 'sneakers'
+  1: 'formal'
+  2: 'boots'
+  3: 'sandals'
+  4: 'slippers'
+  5: 'heels'
+  6: 'others'

@@ -1,0 +1,20 @@
+{
+  "backend": "rfdetr",
+  "version": "1.11.2",
+  "model": "RFDETRSmall",
+  "best": "C:\\Users\\user\\Desktop\\final\\men_dii\\results\\task2\\cpu_short_20261014\\train\\fit\\best.pth",
+  "best_epoch": 1,
+  "best_map50_95": 6.500650215457426e-06,
+  "elapsed_seconds": 146.13456730172038,
+  "smoke_test": true,
+  "limit_train_batches": 16,
+  "limit_val_batches": 8,
+  "classes": [
+    "outsole",
+    "heel lining",
+    "not_sneakers"
+  ],
+  "use_ema": false,
+  "checkpoint_policy": "strictly_best_validation_map_only",
+  "note": "Partial-batch smoke metrics are not full validation performance. No automatic test evaluation."
+}
